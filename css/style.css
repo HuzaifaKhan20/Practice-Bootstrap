@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+/* Navbar Start */
+
+
+.xk_nav_style{
+    background: #fff;
+    box-shadow: 0 10px 30px 0 rgba(138, 155, 165, 0.15);
+}
+
+.navbar-brand img{
+    width: 200px;
+    height: 50px;
+}
+
+
+.navbar-nav li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #333;
+    position: relative;
+}
+
+.navbar-nav li a:before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    width: 0%;
+    height: 3%;
+    background: #ff7230;
+    transition: all 0.3s linear;
+}
+
+
+.navbar-nav li a:hover:before{
+    width: 80%;
+}
+
+.navbar-nav li a:hover{
+    color: #ff7230 !important;
+}
+
+.navbar-nav li .active{
+    color: #ff7230 !important;
+
+}
+
+@media (max-width:998px){
+    .navbar-nav {
+        margin-top: 40px !important;
+        text-align: center !important;
+    }
+
+    .navbar-nav li a:hover:before{
+        width: 0%;
+    }
+}
+
+
+
+
+/* Navbar End */
+
+
+
+
+
+ /* Main Header CSS Start   */
+
+
+ .xk_header_text{
+     font-size: 26px;
+     color: #8c8c8c;
+     margin-top: 80px;
+ }
+
+ .xk_header_text1{
+     font-size: 26px;
+     color: #2d3436;
+     margin-bottom: 70px;
+ }
+
+
+ .span_header_text{
+     color: #ff7230;
+ }
+
+ .hire_me{
+     width: 160px;
+     height: 40px;
+     background: #ff7230;
+     font-size: 20px;
+     color: #fff;
+     text-transform: capitalize;
+     outline: none;
+     border: none;
+     transition: all 0.3s linear;
+     -webkit-transition: all 0.3s linear;
+ }
+
+ .hire_me:hover{
+     background: #fff;
+     color: #ff7230;
+     border: 1px solid #ff7230;
+ }
+
+ .about_me{
+    width: 160px;
+    height: 40px;
+    color: #ff7230;
+    font-size: 20px;
+    background: #fff;
+    text-transform: capitalize;
+    outline: none;
+    border: 1px solid #ff7230;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+ }
+
+ .about_me:hover{
+    background: #ff7230;
+    color: #fff;
+    border: none;
+
+ }
+
+ .header_mail p{
+     margin-top: 40px;
+     font-size: 20px;
+     color: #000;
+     font-weight: 400;
+ }
+
+ .header_mail p:nth-child(2){
+     margin-top: -20px;
+
+ }
+
+ .xk_header_img{
+     margin-top: 40px;
+ }
+ /* Main Header CSS End   */
+
+
+
+
+ /* About Us CSS Start   */
+
+
+
+ .about_sec{
+     padding-top: 50px;
+ }
+
+ .main_title h1{
+     font-weight: 500;
+     font-size: 80px;
+     color: #000;
+     text-transform: capitalize;
+     text-align: center;
+ }
+
+ .about_text{
+     margin-top: -30px;
+ }
+
+ .about_text h1{
+     font-size: 33px;
+     color: #000;
+     margin-top: -20px;
+     margin-bottom: 25px;
+ }
+
+ .about_text h2{
+     font-size: 24px;
+ }
+
+ .about_text p{
+     font-size: 24px;
+     color: #000;
+    }
+    
+.xk_hello{
+     margin-top: 70px;
+
+ }
+ /* About Us CSS End   */
+
+
+
+
+
+  /* Working Experience CSS Start   */
+
+
+
+
+
+  .expert_sec{
+      padding-top: 50px;
+  }
+
+  .main_title{
+      font-size: 26px;
+      color: #000;
+      text-align: center;
+  }
+
+  .common_div{
+      margin-top: 100px;
+  }
+
+  .expert_sec .progress {
+      width: 90%;
+      height: 14px;
+      border-radius: 7px;
+  }
+
+  .expert_sec .pb_1 {
+    width: 93%;
+    border-radius: 7px;
+    background-color: #ea2148;
+}
+
+
+.expert_sec .pb_2 {
+    width: 93%;
+    border-radius: 7px;
+    background-color: #ff7230;
+}
+
+.expert_sec .pb_3 {
+    width: 93%;
+    border-radius: 7px;
+    background-color: #1c9588;
+}
+
+.expert_sec h2{
+    position: relative;
+}
+.expert_h1::after{
+    content: '93%';
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+}
+
+.expert_h2::after{
+    content: '83%';
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+}
+
+.expert_h3::after{
+    content: '88%';
+    position: absolute;
+    top: 10px;
+    right: 13%;
+    font-size: 16px;
+    color: #000;
+}
+  /* Working Experience CSS End   */
